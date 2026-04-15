@@ -1,0 +1,18 @@
+original_tool,improvised_tool,journey,deployment_status,old_p90_sec,new_p90_sec,improvement_p90_sec,conv_id_ref
+PL_CATEGORY_FINDER,pl_category_finder_apiTool,Buy,Deployed on RM,,,,
+track_po,,,,,,, 
+approvePo,hp_approval_apiTool,Approve,Deployed on RM and Staging,,,,
+approvepr,hp_approval_apiTool,Approve,Deployed on RM and Staging,,,,
+PL_ADD_ITEM_VIRTUAL,add_virtual_item_to_cart_apiTool,Buy,Deployed on RM,,,,
+PL_ADD_ITEM_CATALOG,add_catalog_item_to_cart_apiTool,Buy,Deployed on RM,,,,
+PL_CREATE_DRAFTPR,create_draft_requisition_apiTool,Buy,Deployed on RM,,,,
+track_po2 - Create Invoice flow,,Invoice,,,,,
+requisition_finder,requisition_finder_apiTool,Receipt/Return Note,Deployed on RM,,,,
+Create_Draft_Invoice,upload_invoice_s3,Invoice,Deployed on RM and Staging,,,,
+create_draft_mpr_req,create_draft_req_mpr,Buy,Deployed on RM and Staging,,,,
+create_draft_req,create_draft_req_com,Buy,Deployed on RM and Staging,,,,
+PE_ADD_CART_ITEMS,add_item_to_cart_apiTool,Buy,Deployed on RM,,,,
+fetch_purchase_type,fetch_purchase_type_apiTool,Buy,Closed,22.5,0.5,22,"21321, 21324"
+fetch_cart_items,fetch_cart_items_apiTool,Buy,Closed,32.5,1.5,31,"21321, 21324"
+predict_category,predict_category_apiTool,Buy,Closed,18.5,4.5,14,21321
+track_pr2,track_pr2_apiTool,Track,Closed,35.5,4.5,31,21339
