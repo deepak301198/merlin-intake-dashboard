@@ -1,0 +1,6 @@
+s_no,change_description,deployed,owner,pmg_dependency,comments,sanity,improvement,issues_found,reverted
+1,Multi-model changes for tool improvements,Yes,Deepak MS,Yes,Fetch tools,,Yes,No,-
+2,Pre-Fetch tool for selected bundles,Yes,Kuldeep,Yes,Enabled for multiple bundles - PwC,Yes,No Significant,No,-
+3,Parallel tool execution,Yes,Deepak MS,No,,Yes,No Significant,,-
+4,Programmatic tools,Yes,Kaushik,Yes,,Yes - HnK / Pending for PwC,No Significant,Rest all tools fine / RequisitionFinder,-
+5,System prompt (Reverted back from Stage),Yes,Rumil,Yes,Implement for PwC Hnk Garnet,Yes,Yes,Skipping steps,Yes
