@@ -1,0 +1,28 @@
+customer_name,version,priority,region,ssg_owner,journeys,agents_deployed,estimated_users,staging_release,staging_uat,prod_sanity,go_live,current_status,env,notes,last_updated
+HAP,2,,US,Sumedh Sawant,Approve|Track,,50,2024-11-12,2024-12-08,2025-01-16,2025-01-23,Customer Released,US Prod,Initial Testing Group: Internal; Signoff: SMEs Senior Leads,2025-04-13
+TKC Holdings,2,,US,Debanjan Mukhopadhyay,Approve|Track|Supplier|Contract|Sourcing|Buy,,1500,2024-11-26,2025-01-12,2025-02-17,2025-03-02,Customer Released,US Prod,v2 live on US Prod,2025-04-13
+TKC Holdings,4,,US,Debanjan Mukhopadhyay,Approve|Track|Supplier|Contract|Sourcing|Buy,,,,,,,Customer Released,US Prod,v4 flows enabled and handed over,2025-04-13
+Tiger Brands,2,P1,EMEA,Dheeraj,Approve|Track|Supplier|Contract|Sourcing|Buy|Invoice,,,,,,,Customer Released,UK Prod,Track Approve & Buy configured on Prod,2025-04-13
+Seqwater,4,P1,APAC,Dheeraj/Vinaya,Approve|Track|Buy,,,2026-02-15,,,,Customer Released,AUS Prod,Deployed Prod 18/03. No issues.,2025-04-13
+V-Line,2,P1,APAC,Dheeraj,Approve|Track|Supplier|Buy|Request,2024-11-02,,2024-11-26,2024-12-06,2024-12-13,,Customer Released,AUS Prod,Awaiting go-live dates,2025-04-13
+Panasonic - Jay P,2,,US,,No Intake (ServiceNow Integration),,,,,,,Customer Released,US Prod,,2025-04-13
+Broadridge,4,P1,US,Upendra,Approve|Track|Supplier|Contract|Sourcing|Buy|Invoice|Redirection,,,,,,,In Progress,,Configuration in progress,2025-04-13
+PwC,Autonomous,,US,Amitkumar Jha,S2P,,,,,2025-01-15,,In Progress,USST,UAT ongoing. Champions 15-Dec. Broader PwC Team Apr 2026.,2025-04-13
+BOLT Phase 1,4,P1,EMEA,Shuvam K/Vivek M,Approve|Track|Supplier|Contract|Sourcing|Buy|Invoice,,,,,,,Customer Released,AUSST,Signed off for supplier and standalone iRequest 9-Feb-26,2025-04-13
+BOLT Phase 2,4,P2,EMEA,Shuvam K/Vivek M,Approve|Track|Supplier|Contract|Sourcing|Buy|Invoice,,,,,,2025-02-17,In Progress,AUSST,,2025-04-13
+Vista,4,P2,US,Debanjan Mukhopadhyay,,,,,,,,In Progress,,,2025-04-13
+Confie,2,P2,US,Prashant Tripathi,Approve|Track|Supplier|Contract|Sourcing|Buy|Invoice,,,,,,,Customer Released,US Prod,Deployed Prod 18/03. No issues.,2025-04-13
+TATA PLAY,2,P2,EMEA,Abhishek A,Approve|Track|Supplier|Contract|Sourcing|Buy|Invoice,,,,,,2025-03-07,Internal Released,USST,Internal testing in progress. No issues.,2025-04-13
+NTUC,4,P1,APAC,Kiran C,Approve|Track|Supplier|Contract|Sourcing|Buy|Invoice,,,,,,2025-02-09,In Progress,APAC,New req: 2FA for PDA logins. Recall Functionality.,2025-04-13
+DEECA,4,P2,APAC,Sanjana A/Abhishek A,,,,,,,,In Progress,APAC,,2025-04-13
+Heineken,4,P1,EMEA,Shuvam K,Approve|Track|Buy,,,,,,2025-02-05,In Progress,EMEA,,2025-04-13
+PwC (Autonomous EMEA),Autonomous,,EMEA,Shuvam K,,,,,,,,In Progress,,,2025-04-13
+Wepa,4,P2,EMEA,Vivek M,Approve|Track|Supplier|Contract|Sourcing|Buy|Invoice,,,,,,,In Progress,EMEA,,2025-04-13
+ST Engineering,4,P2,APAC,Deepak M,Approve|Track|Supplier|Contract|Sourcing|Buy|Invoice,,,,,,,Internal Released,STEST,No further updates.,2025-04-13
+Stanmore,4,P2,APAC,Dheeraj/Alok,Approve|Track|Sourcing,,,,,2025-02-23,2025-03-13,Internal Released,AUSST,Internal concluded. Flows to be enabled.,2025-04-13
+CEWA,4,P2,APAC,Kiran C/Chandana,Approve|Track|Buy,,,,,,,In Progress,APAC,,2025-04-13
+Ahold,4,,,,,,,,,,,Customer Released,USST,No issues reported.,2025-04-13
+CBC,4,P1,US,Chinmay P/Shashank S,Approve|Track|Sourcing|Buy|ANA,,,2025-02-13,2025-03-09,2025-03-24,2025-03-31,Internal Released,USST,Customer signoff received. Customer users enabled.,2025-04-13
+GISY,4,P1,US,Prashant Tripathi,Approve|Track|Supplier|Contract,,,,,2025-05-05,2025-05-13,In Progress,US,,2025-04-13
+Outokumpu,4,P1,US,Debanjan Mukhopadhyay/Shivani Mishra,S2P,,1200,2025-03-23,2025-04-27,2025-05-08,2025-05-29,Customer Released,USST,Internal testing complete. Enabled for customer users.,2025-04-13
+Paul Hastings,4,P1,US,Upendra Dekhane,Approve|Track|Supplier|Contract|Buy|Invoice,,500,2025-05-15,2025-06-30,2025-08-01,2025-08-07,In Progress,US,Champion testing 15-Jul. Senior Leads signoff.,2025-04-13
