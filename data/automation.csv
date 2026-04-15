@@ -1,0 +1,13 @@
+snapshot_date,customer,tests_generated,tests_executed,execution_pct,l0_total,l0_pass_pct,l1_total,l1_pass_pct,flow_level_status,prefill_status,failures_summary,remarks
+2025-03-31,PwC,159,128,0.805031,16,0.5625,112,0.392857,Not started,WIP,Framework limitation. Invalid test data. Dual responses. Bundle trigger issue. MPR prefilling.,
+2025-03-31,HnK,69,17,0.246377,9,0.58,46,0.48,Not started,WIP,Framework limitation. Invalid test data. Receipt BRV error. Get_receipt_no failure.,
+2025-04-01,PwC,,,,,,,,,,No Automation runs on 01/04,No runs
+2025-04-01,HnK,,,,,,,,,,No Automation runs on 01/04,No runs
+2025-04-03,PwC,159,93,0.584906,11,0.818182,82,0.52439,Running,WIP,Framework limitation. LiteLLM retry. Product API error.,
+2025-04-03,HnK,69,65,0.942029,6,0.5,25,0.6,To be enabled,WIP,Framework limitation. Invalid test data.,
+2025-04-06,PwC,159,103,0.647799,9,0.777778,94,0.595745,Running PWC_MI_4.0,WIP,Framework limitation.,
+2025-04-06,HnK,69,65,0.942029,5,0.8,25,0.56,To be enabled,WIP,Framework limitation. Invalid test data.,
+2025-04-08,PwC,159,93,,10,0.818182,,,Running PWC_MI_4.0,WIP,Approval Issue. LiteLLM retry. Product API error.,L0 84% (10/12). L1 combined 74/114 (64%) per PPT.
+2025-04-08,HnK,69,65,,12,1.0,,,To be enabled,WIP,LiteLLM retry. Product API error.,L0 100% (12/12). L1 combined 74/114 (64%) per PPT.
+2025-04-13,PwC,159,,,,,,,,WIP,Framework limitation. Only failures: Receipt & Approval. LiteLLM retry.,No numeric data in source for 13 Apr. PPT narrative only.
+2025-04-13,HnK,69,,,,,,,,WIP,Framework limitation.,Flow level to be enabled. ANA-Desk migration in progress.
