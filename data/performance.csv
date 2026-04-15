@@ -1,0 +1,28 @@
+item_num,category,action,owner,status,staging_eta,old_p90_sec,new_p90_sec,improvement_sec,remarks
+1,Framework,Validate the AI Model - Sonnet and Haiku combination and Temperature setting,Kuldeep/Pridhvi/Deepak,On Hold,,,,,Kuldeep doing POC with Haiku model
+2,Tools,Clear view of which tools updated with Filtering and recommended corrections,Pridhvi,,,,,, 
+3,Track PR Journey,Track_PR tool - resolve 2 plan state call issue. Same issue observed for Approve Journey,Rumil,,,,,,Pending Deployment approval
+4,Framework,Prefetch tool load during bundle load,Kuldeep/Rumil,,,,,,Pending Deployment approval
+5,Tools,Identify and convert tools to ProductAPI-based tools,Kaushik,,,,,, 
+6,Buy Journey,Push fetch_purchase_type_apiTool & fetch_cart_items_apiTool change on staging,Kaushik,,2026-03-17,,,, Prasanna to integrate
+7,Framework,Push Asynch for plan_state config driven changes and reduced one LLM call for final synthesis,Deepak,,,,,,Same model + 0.7
+8,Buy Journey,For multiple items implement changes for PL_ADD_ITEM_CATALOG and ADD_ITEM_VIRTUAL,Prasanna/Kaushik,In Progress,2026-03-17,,,,Prasanna to deploy changes on Stage
+9,Approve PR Journey,Approve PR - getApprovalList taking ~20+ sec - Fetch from MAS or Optimize the API,Kaushik/Pridhvi,Done,,,,,p90 < 5 sec
+10,Tools,Test tools not in use should be cleared from the system,Pridhvi,Closed,,,,,
+11,Create_Draft_Invoice tool,Duplicate tool call - Create_Draft_Invoice called 3 times - Conv ID 12917,Pridhvi,Done,,,,,Using Upload_Invoice_S3 alternate tool taking less than 30 secs
+12,Create_Draft_Invoice tool,Duplicate API calls - uploadFromSignedUrl 2 times - Conv ID 12917,Pridhvi,Done,,,,,Using Upload_Invoice_S3 alternate tool taking less than 30 secs
+13,create_draft_req_com tool,Duplicate API calls - trackingrequest/spr/create called 3 times - Conv ID 12910,Pridhvi,Done,,,,,Changes deployed on stage
+14,Create_Draft_req_MPR tool,Duplicate tool call - Create_Draft_req_MPR called 2 times - Conv ID 13113,Pridhvi,Closed,,,,,Changes deployed on Stage
+15,Create_Draft_req_MPR tool,Duplicate API call - getDefinition 7 times in 1st call - Conv ID 13113,Pridhvi,Closed,,,,,Changes deployed on Stage
+16,Create_Draft_req_MPR tool,Duplicate API call - initiateProcess called 2 times - Conv ID 13113,Pridhvi,Closed,,,,,Changes deployed on Stage
+17,create_inv_payload tool,Check feasibility of converting create_inv_payload to Product-API based tool,Kaushik,Done,,,,,Using Upload_Invoice_S3 alternate tool taking less than 30 secs
+18,Tools,Optimize p90 %tile response time by other implementation discussed separately,Kaushik/Pranav,,,,,, 
+19,Filtering Agent,Apply filtering agent to all applicable tools,Pridhvi,In progress,,,,,Filtering agent transform files deployed on RM. Certification in progress.
+20,Approve PR Journey,Intent Based API calls (PR + Blanket PO/Standard PO Call),Prasanna,Done,2026-03-18,,,,Done for PwC on Stage. Tested HnK on RM.
+21,Tools,Remove duplicate/redundant tool calls and API calls,Pridhvi,In progress,,,,,
+22,Create Receipt Journey,track_pr2 still invoking getPreference and convertDateToEpoch APIs - can save 30+ secs,Hari,Closed,,,,,
+23,Create Receipt Journey – requisition_finder,Convert requisition_finder into static tool to eliminate one LLM call per journey,Prasanna,,,,,, 
+24,Create Receipt Journey – create_receipt tool,API response from requisition_finder already available; reuse in create_receipt tool,Prasanna,,,,,, 
+25,Create Receipt Journey – create_receipt tool,Modify create_receipt to retrieve receipt number - eliminates get_receipt_no call (saves ~25 sec),Kaushik,,,,,, 
+26,Framework,Caching of bundles for first response gains,Deepak,,,,,, 
+27,Create Invoice,Create Invoice invoking track_po2 heavy API (~24 sec). Use lightweight API instead.,Bharat,In progress,,,24,,Will deployed on Stage by 6pm
